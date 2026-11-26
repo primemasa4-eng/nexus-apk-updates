@@ -2287,6 +2287,31 @@ button,a,.nexus-action-card {
  z-index:400!important;
 }
 </style>
+
+<style id="NEXUS_NATIVE_APP_FEEL">
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+html, body, body *:not(input):not(textarea):not([contenteditable="true"]) {
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  -webkit-touch-callout: none !important;
+}
+input, textarea, [contenteditable="true"] {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default !important;
+}
+button {
+  touch-action: manipulation;
+  transition: transform .16s ease, filter .16s ease, box-shadow .16s ease;
+}
+button:active {
+  transform: scale(.97);
+  filter: brightness(1.2);
+}
+</style>
+
 </head>
 <body>
 
