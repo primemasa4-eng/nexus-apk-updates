@@ -7,6 +7,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.content.Intent
 import android.net.Uri
+import android.view.View
 import androidx.webkit.WebViewAssetLoader
 
 class MainActivity : Activity() {
